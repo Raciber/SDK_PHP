@@ -7,8 +7,8 @@ PRIMERO PASOS
 1. Instalar Homebrew desde este sitio: https://brew.sh/es/
 2. Next steps:
        - Run these commands in your terminal to add Homebrew to your PATH:
-	echo >> /Users/rrodriguezra/.bash_profile
-	echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/rrodriguezra/.bash_profile
+	echo >> /Users/[user_computer]/.bash_profile
+	echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[user_computer]/.bash_profile
 	eval "$(/opt/homebrew/bin/brew shellenv)”
 3. Ejecuta el comando “brew - -version” para verificar que se muestre la versión de brew instalada.
 4. Instalar PHP, ejecuta el comando: “brew install php”
