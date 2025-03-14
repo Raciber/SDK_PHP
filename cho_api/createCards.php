@@ -20,10 +20,10 @@
     try {
 
         // Step 4: send id of customer and create of array with card_token
-        $idCustomer = "1599577635-YeCqqXCSk8IHd1";
+        $idCustomer = "";
 
         $request = [
-            "token" => "6258adeaa3296c10e3b274d6d3c1ec46",
+            "token" => "",
         ];
 
         // Step 5: Make the request
