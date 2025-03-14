@@ -20,7 +20,7 @@
     try {
 
         // Step 4: send id of customer
-        $idCustomer = "1599577635-YeCqqXCSk8IHd1";
+        $idCustomer = "";
         // Step 5: Make the request
         $cards = $clientCards->list($idCustomer);
         print_r($cards->getResponse()->getContent());
