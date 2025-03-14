@@ -20,7 +20,7 @@
     try {
 
         // Step 4: send id of customer
-        $email = "1599577635-YeCqqXCSk8IHd1";
+        $email = "";
         
         // Step 5: Make the request
         $customer = $client->get($email);
