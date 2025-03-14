@@ -1,4 +1,5 @@
 <?php
+    //USAR ESTE METODO REQUIERE UN DOCUMENTO CON MP QUE PERMITA USARLO
     // Step 1: Require the library from your Composer vendor folder and add Dotenv
     require_once '../vendor/autoload.php';
     $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
