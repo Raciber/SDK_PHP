@@ -20,8 +20,8 @@
     try {
 
         // Step 4: send Id_customer, card_id and array request of data for update.
-        $idCustomer = "1599577635-YeCqqXCSk8IHd1";
-        $idCard = "9384663428";
+        $idCustomer = "";
+        $idCard = "";
 
         // Step 5: Make the request
         $cards = $clientCards->delete($idCustomer,$idCard);
