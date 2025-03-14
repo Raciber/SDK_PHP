@@ -23,7 +23,7 @@
         // Step 4: Create the request array
         $request = [
             "transaction_amount" => 100,
-            "token" => "5c1edf1efa02cbba4c11b4e14a480402",
+            "token" => "",
             "description" => "Prueba MP Raciber",
             "external_reference" => "MPRaciber0001",
             "installments" => 1,
@@ -35,7 +35,7 @@
 
         // Step 5: Create the request options, setting X-Idempotency-Key
         $request_options = new RequestOptions();
-        $request_options->setCustomHeaders(["X-Idempotency-Key: fa8769e6-6ac8-415e-abfa-74b01e543c6e"]);
+        $request_options->setCustomHeaders(["X-Idempotency-Key: "]);
 
         // Step 6: Make the request
         $payment = $client->create($request, $request_options);
